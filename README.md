@@ -26,9 +26,8 @@
 - ni - creates new item
 - rm - removes an item
 - ls - list the items
-- Command used to count unique words in a sequential order:
+## Command used to count unique words in a sequential order:
 tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr > result.txt
-
-- Curl command:- curl "http://shakespeare.mit.edu/julius_caesar/full.html" -O "data.txt"
-- Command used to display top 5 unique words
+## Curl command:- curl "http://shakespeare.mit.edu/julius_caesar/full.html" -O "data.txt"
+## Command used to display top 5 unique words
 head-5 result.txt
